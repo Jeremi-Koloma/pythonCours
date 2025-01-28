@@ -391,7 +391,6 @@ say_helllo('Emily', '😇')
 
 def say_hello(name='Darth Vader', emoji='😈'):
 
-
     say_hello(name='Bibi', emoji='😇')
 
 # retrun
@@ -424,4 +423,19 @@ while ((n := len(a)) > 1):
     print(n)
     a = a[:-1]
 
-# scope
+# oop / obect oriented programming
+
+# Class
+class PlayerCharacter:
+    def __init__(self, name, age):
+        self.name = name # attribute
+        self.age = age
+
+    def run(self):
+        print('Run')
+        return 'done'
+
+
+player1 = PlayerCharacter('Alou', 20)
+player2 = PlayerCharacter('Mateo', 90)
+print(player1.name)
