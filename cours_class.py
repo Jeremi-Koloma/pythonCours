@@ -2,8 +2,9 @@
 class PlayerCharacter:
     # class object Attribute
     membership = True
+
     def __init__(self, name, age):
-        self.name = name # attribute
+        self.name = name  # attribute
         self.age = age
 
     def run(self):
@@ -14,11 +15,12 @@ class PlayerCharacter:
     @classmethod
     def adding_things(cls, num1, num2):
         return num1 + num2
-    
+
     # Method for the class itself that not care the constructor attribute
     @staticmethod
     def adding_things2(num1, num2):
         return num1 + num2
+
 
 player1 = PlayerCharacter('Alou', 20)
 player2 = PlayerCharacter('Mateo', 90)

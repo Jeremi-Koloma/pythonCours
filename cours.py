@@ -426,9 +426,11 @@ while ((n := len(a)) > 1):
 # oop / obect oriented programming
 
 # Class
+
+
 class PlayerCharacter:
     def __init__(self, name, age):
-        self.name = name # attribute
+        self.name = name  # attribute
         self.age = age
 
     def run(self):
