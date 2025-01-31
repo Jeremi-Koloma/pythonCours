@@ -34,3 +34,6 @@ archer1.attack()
 # Méthode abstraite
 wizard1.sign_in()
 archer1.sign_in()
+
+# Vérifier si une classe est une instance
+print(isinstance(wizard1, Wizard))
