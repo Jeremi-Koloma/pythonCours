@@ -37,3 +37,13 @@ archer1.sign_in()
 
 # Vérifier si une classe est une instance
 print(isinstance(wizard1, Wizard))
+
+# Polymorphisme
+
+
+def player_attack(player):
+    player.attack()
+
+
+player_attack(wizard1)
+player_attack(archer1)
