@@ -1,5 +1,8 @@
 # Classe parente
 class User():
+    def __init__(self, email):
+        self.email = email
+
     def sign_in(self):
         print('Logged In')
 
@@ -7,7 +10,8 @@ class User():
 
 
 class Wizard(User):
-    def __init__(self, name, power):
+    def __init__(self, name, power, email):
+        super().__init__(email)
         self.name = name
         self.power = power
 
@@ -25,9 +29,9 @@ class Archer(User):
 
 
 # Créons des intances des classes
-wizard1 = Wizard('Job', 50)
+wizard1 = Wizard('Job', 50, 'exawizard@gmail.com')
 wizard1.attack()
-
+print(wizard1.email)
 archer1 = Archer('Robin', 1000)
 archer1.attack()
 
