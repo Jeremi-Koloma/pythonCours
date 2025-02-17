@@ -13,3 +13,8 @@ print(list(filter(lambda currentItem: currentItem > 5, my_list)))
 
 # La fonction Reduce avec lamda
 print(reduce(lambda acc, item: acc + item, my_list))
+
+# List sorting
+a = [(0, 2), (4, 3), (10, -1), (9, 9)]
+a.sort(key=lambda x: x[1])
+print(a)
