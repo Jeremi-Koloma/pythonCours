@@ -19,4 +19,9 @@ simple_dict = {
 
 my_dict = {k: v**2 for k, v in simple_dict.items() if v % 2 == 0}
 print(my_dict)
- 
+
+# set comprehension
+# chercher les élements dupliquer
+some_list = ['a', 'b', 'c', 'b', 'b', 'd', 'm', 'n', 'n', 'o']
+duplicates = list(set([x for x in some_list if some_list.count(x) > 1]))
+print(duplicates)
