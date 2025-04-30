@@ -99,6 +99,10 @@ basket.clear()
 print(basket)
 # in
 basket = ['a', 'z', 'b', 'x', 'c', 'd', 'e', 'd', 'd']
+profils = ['Professor', 'Student']
+print('---------------')
+print('Professor' in profils)
+print('---------------')
 print('c' in basket)
 print('i' in 'hi my name is Ian')
 # count
