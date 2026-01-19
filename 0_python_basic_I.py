@@ -46,3 +46,7 @@ third line
 print(multi_line)
 
 # string concatenation
+print('Hello ' + 'Jeremi')
+
+# Type conversion
+print(str(100))
