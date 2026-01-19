@@ -31,3 +31,18 @@ PI = 13.14
 some_value = 5
 some_value = some_value + 2
 print(some_value)
+
+# string
+print(type("Hi hi !"))
+username = "supercoder"
+password = "supersecret"
+print(username)
+
+multi_line = """
+first line
+second line
+third line
+"""
+print(multi_line)
+
+# string concatenation
