@@ -50,3 +50,7 @@ print('Hello ' + 'Jeremi')
 
 # Type conversion
 print(str(100))
+
+# Escape sequence
+water = 'It \'s sunny !'
+print(water)
