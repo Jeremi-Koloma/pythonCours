@@ -64,3 +64,8 @@ selfish = "01234567"
 print(selfish[0])
 # [start : stop : stepover]
 print(selfish[1:6:2])
+
+# Boolean
+is_cool = True
+print(is_cool)
+print(bool(0))
