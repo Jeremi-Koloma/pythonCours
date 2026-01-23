@@ -46,15 +46,21 @@ third line
 print(multi_line)
 
 # string concatenation
-print('Hello ' + 'Jeremi')
+print("Hello " + "Jeremi")
 
 # Type conversion
 print(str(100))
 
 # Escape sequence
-water = 'It \'s sunny !'
+water = "It 's sunny !"
 print(water)
 
 # formatted strings
 name = "Jeremi"
-print(f'Hi {name}, you are {user_age} years old')
+print(f"Hi {name}, you are {user_age} years old")
+
+# string indexes
+selfish = "01234567"
+print(selfish[0])
+# [start : stop : stepover]
+print(selfish[1:6:2])
