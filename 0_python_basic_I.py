@@ -54,3 +54,7 @@ print(str(100))
 # Escape sequence
 water = 'It \'s sunny !'
 print(water)
+
+# formatted strings
+name = "Jeremi"
+print(f'Hi {name}, you are {user_age} years old')
