@@ -102,3 +102,9 @@ print(li)
 
 li.remove(5)  # Value to remove
 print(li)
+
+print("notebooks" in amazon_cart)
+
+basket = ["a", "x", "b", "c", "e", "d"]
+basket.sort()
+print(basket)
