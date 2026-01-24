@@ -71,6 +71,15 @@ print(is_cool)
 print(bool(0))
 
 # List
-li = [1,2,3,4,5]
-li2 = ['A', 'B', 'C', 'D']
-li3 = [1, 2, 'A', 'B', True, 20.0]
+li = [1, 2, 3, 4, 5]
+li2 = ["A", "B", "C", "D"]
+li3 = [1, 2, "A", "B", True, 20.0]
+
+# List slicing
+amazon_cart = ["notebooks", "sunglasses", "toys", "grapes"]
+print(amazon_cart[2:4])
+
+new_cart = amazon_cart[:] # Copy a list
+new_cart[0] = "latop"
+print(new_cart)
+print(amazon_cart)
