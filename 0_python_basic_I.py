@@ -79,7 +79,11 @@ li3 = [1, 2, "A", "B", True, 20.0]
 amazon_cart = ["notebooks", "sunglasses", "toys", "grapes"]
 print(amazon_cart[2:4])
 
-new_cart = amazon_cart[:] # Copy a list
+new_cart = amazon_cart[:]  # Copy a list
 new_cart[0] = "latop"
 print(new_cart)
 print(amazon_cart)
+
+# Matrix
+matrix = [[1, 5, 1], [0, 1, 0], [1, 0, 1]]
+print(matrix[0][1])
