@@ -87,3 +87,18 @@ print(amazon_cart)
 # Matrix
 matrix = [[1, 5, 1], [0, 1, 0], [1, 0, 1]]
 print(matrix[0][1])
+
+# List Methods
+# adding
+li.append(100)
+print(li)
+
+li.insert(3, 10)  # insert on index 3
+print(li)
+
+# removing
+li.pop(2)  # index to remove
+print(li)
+
+li.remove(5)  # Value to remove
+print(li)
