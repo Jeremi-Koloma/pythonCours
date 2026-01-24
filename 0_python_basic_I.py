@@ -69,3 +69,8 @@ print(selfish[1:6:2])
 is_cool = True
 print(is_cool)
 print(bool(0))
+
+# List
+li = [1,2,3,4,5]
+li2 = ['A', 'B', 'C', 'D']
+li3 = [1, 2, 'A', 'B', True, 20.0]
